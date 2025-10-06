@@ -46,26 +46,20 @@ export const HomeDecor2 = () => {
               human-centred. An that residents actually enjoy using and see as
               part of their everyday lives.
             </p>
-            <button className="border border-tealGray rounded-[2.5rem]">
-              <div className="bg-tealGray text-white w-full py-2.5 rounded-[2.5rem] border-2 border-white">
+            <a
+              target="_blank"
+              rel="noopener noreferrer"
+              href="https://www.behance.net/gallery/220371897/ESTATE-COMMUNITY-APP"
+              className="border border-tealGray rounded-[2.5rem]"
+            >
+              <div className="bg-tealGray text-white w-full py-2.5 rounded-[2.5rem] flex items-center justify-center border-2 border-white">
                 Click to View Full Case Study
               </div>
-            </button>
-            <div className="flex flex-col gap-1 font-inter text-center items-center pb-4">
-              <span className="text-xs text-black">
-                or copy and paste the link below
-              </span>
-              <a
-                href="https://www.behance.net/gallery/220371897/ESTATE-COMMUNITY-APP"
-                className="text-black text-[12.09px] underline"
-              >
-                https://www.behance.net/gallery/220371897/ESTATE-COMMUNITY-APP
-              </a>
-            </div>
+            </a>
           </div>
         </div>
-        <div className="bg-tealGray pt-[2.938rem] pl-5 max-w-[33.188rem] ">
-          <div className="flex flex-col gap-4 mb-[5.313rem]">
+        <div className="bg-tealGray pt-[2.938rem]  max-w-[33.188rem] ">
+          <div className="flex flex-col gap-4 mb-[5.313rem] pl-5">
             <div className="flex  gap-2 w-full overflow-clip">
               <Pill>Community Feel</Pill>
               <Pill>Improve Community Experience</Pill>

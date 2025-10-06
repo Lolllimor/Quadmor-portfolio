@@ -49,26 +49,21 @@ export const RolePouchii = () => {
               where financial tools play a supportive role rather than the
               dominant one.
             </p>
-            <button className="border border-purple rounded-[2.5rem]">
-              <div className="bg-purple text-white w-full py-2.5 rounded-[2.5rem] border-2 border-white">
+            <a
+              target="_blank"
+              rel="noopener noreferrer"
+              href="https://www.behance.net/gallery/188111073/Pouchii-Redesign"
+              className="border border-purple rounded-[2.5rem]"
+            >
+              <div className="bg-purple text-white w-full py-2.5 rounded-[2.5rem] border-2 flex items-center justify-center border-white">
                 Click to View Full Case Study
               </div>
-            </button>
-          </div>
-          <div className="flex flex-col gap-1 font-inter text-center items-center pb-4">
-            <span className="text-xs text-black">
-              or copy and paste the link below
-            </span>
-            <a
-              href="https://www.behance.net/gallery/188111073/Pouchii-Redesign"
-              className="text-black text-[12.09px] underline"
-            >
-              https://www.behance.net/gallery/188111073/Pouchii-Redesign
             </a>
           </div>
+         
         </div>
-        <div className="bg-purple pt-[2.938rem] pl-5 max-w-[33.188rem]">
-          <div className="flex flex-col gap-4 ">
+        <div className="max-[500px]:bg-purple bg-[#7482f6] pt-[2.938rem]  max-w-[33.188rem]">
+          <div className="flex flex-col gap-4 pl-5">
             <div className="flex  gap-2 w-full overflow-clip">
               <Pill>Redesign the Look and Feel</Pill>
               <Pill>Improve Onboarding Experience</Pill>

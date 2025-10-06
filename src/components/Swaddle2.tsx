@@ -62,8 +62,8 @@ export const Swaddle2 = () => {
             </span>
           </div>
         </div>
-        <div className="bg-babyPurple flex flex-col justify-end pt-[2.938rem] pl-5 max-w-[33.188rem] ">
-          <div className="w-full mb-[62px] h-[20.688rem] relative overflow-hidden">
+        <div className="max-[500px]:bg-babyPurple bg-[#8a77be] flex flex-col justify-end pt-[2.938rem]  max-w-[33.188rem] ">
+          <div className="w-full mb-[62px] h-[20.688rem] relative overflow-hidden ">
             <video
               src="/swaddle-vid.mp4"
               autoPlay
@@ -74,7 +74,7 @@ export const Swaddle2 = () => {
               className="absolute left-1/2 top-0 -translate-x-1/2 h-[29.188rem] w-auto"
             />
           </div>
-          <div className="flex flex-col gap-4 mb-[5.313rem]">
+          <div className="flex flex-col gap-4 mb-[5.313rem] pl-5">
             <div className="flex  gap-2 w-full overflow-clip">
               <Pill>Scalable Design System</Pill>
               <Pill>Design Social & Community Spaces</Pill>

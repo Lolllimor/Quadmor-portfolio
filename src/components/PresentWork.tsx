@@ -26,21 +26,13 @@ export const PresentWork = () => {
             <p className="font-semibold font-causten text-white text-[32px] leading-[48px]">
               Click to Read my recent publication
             </p>
-            <div className='bg-[url("/publication-bg.png")] bg-contain bg-center bg-no-repeat h-[110px] px-8 text-babyBlue font-semibold text-2xl flex items-center justify-center font-inter leading-[32px]'>
+            <a
+              href="https://www.linkedin.com/pulse/design-system-onboarding-turning-tools-team-culture-quadri-morin-ysvcf/?trackingId=CPwcfPyLSMyR2VhktiZWlQ%3D%3D"
+              target="_blank"
+              className='cursor-pointer bg-[url("/publication-bg.png")] bg-contain bg-center bg-no-repeat h-[110px] px-8 text-babyBlue font-semibold text-2xl flex items-center justify-center font-inter leading-[32px]'
+            >
               Design System Onboarding — Turning Tools into Team Culture.
-            </div>
-            <div className="flex flex-col gap-2">
-              <p className="text-base font-semibold font-inter text-white">
-                Or copy & paste the link below
-              </p>
-              <a
-                href="https://www.linkedin.com/pulse/design-system-onboarding-turning-tools-team-culture-quadri-morin-ysvcf/?trackingId=CPwcfPyLSMyR2VhktiZWlQ%3D%3D"
-                target="_blank"
-                className="text-xs font-normal font-inter text-white underline"
-              >
-                https://www.linkedin.com/pulse/design-system-onboarding-turning-tools-team-culture-quadri-morin-ysvcf/?trackingId=CPwcfPyLSMyR2VhktiZWlQ%3D%3D
-              </a>
-            </div>
+            </a>
           </div>
         </div>
         <div className="w-full pl-10 flex flex-col justify-between h-[615px]">
@@ -81,15 +73,30 @@ export const PresentWork = () => {
             </div>
           </div>
           <div className="w-full flex flex-col gap-4">
-            <button className="w-full bg-white text-gray py-2 font-inter flex items-center justify-center gap-3">
+            <a
+              target="_blank"
+              rel="noopener noreferrer"
+              href="https://drive.google.com/file/u/0/d/1IR7KcUJ-AhLLcHaqBAmNEAXeO2hbPF4y/view?usp=sharing&pli=1"
+              className="w-full bg-white text-gray py-2 font-inter flex items-center justify-center gap-3"
+            >
               View Resume <ResumeIcon />
-            </button>
-            <button className="w-full bg-white text-gray py-2 font-inter flex items-center justify-center gap-3">
+            </a>
+            <a
+              target="_blank"
+              rel="noopener noreferrer"
+              href="http://behance.net/quadrimorin"
+              className="w-full bg-white text-gray py-2 font-inter flex items-center justify-center gap-3"
+            >
               Behance <BehanceIcon />
-            </button>
-            <button className="w-full bg-white text-gray py-2 font-inter flex items-center justify-center gap-3">
+            </a>
+            <a
+              target="_blank"
+              rel="noopener noreferrer"
+              href="https://www.linkedin.com/in/quadmor/"
+              className="w-full bg-white text-gray py-2 font-inter flex items-center justify-center gap-3"
+            >
               Linkedin <LinkedinIcon />
-            </button>
+            </a>
           </div>
         </div>
       </div>

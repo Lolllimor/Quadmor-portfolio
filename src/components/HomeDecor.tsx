@@ -29,21 +29,7 @@ export const HomeDecor = () => {
       <div className="h-[31.313rem] flex items-end w-full relative">
         <div className='grid grid-cols-3 gap-8 h-[28.188rem] bg-[url("/home-decor-phone.png")] bg-cover bg-center bg-no-repeat w-full px-[3.75rem]'>
   
-            <div className="border border-[#F7E59B] rounded-4xl p-3.5 flex gap-3.5 max-w-[274px] bg-[#353535] h-full max-h-[6.75rem] mt-[4.688rem]">
-              <div className="h-[4.875rem] w-[4.875rem] flex flex-col items-center justify-center  bg-black rounded-[19px] ">
-                <KycIcon />
-                <span className="text-[8px]">Level 1</span>
-              </div>
-              <div className="flex flex-col justify-between max-h-[3.813rem]">
-                <p className="text-xs text-[#FEEB9F] font-semibold">
-                  Upgrade KYC Level
-                </p>
-                <p className="text-[0.5rem] text-white">
-                  Have both your ID Card and your Utility Bill handy. Upgrade
-                  your KYC level here{' '}
-                </p>
-              </div>
-            </div>
+          <Image src={"/kyc.png"} alt='KYC' width={274} height={108} className='mt-[100px]' />
 
           <div></div>
           <div className="absolute bottom-0 right-[3.764rem]">

@@ -23,9 +23,12 @@ export const WorkSection = () => {
       </div>
       <div className="flex flex-col  py-[7.3125rem] px-[50px] mx-auto bg-white">
         <div className="flex  gap-0  h-[16.6875rem]">
-          <div className="bg-blue w-[12.5rem] h-[16.6875rem] rounded-tl-[1.875rem] pl-[1.372rem] pb-[1rem] transition-transform duration-300 hover:scale-95 font-semibold  flex justify-start items-end cursor-pointer">
+          <div
+            className={`bg-blue w-[12.5rem] h-[16.6875rem] rounded-tl-[1.875rem] pl-[1.372rem] pb-[1rem] transition-transform duration-300 hover:scale-95 font-semibold  flex justify-start items-end cursor-pointer ${
+              active === 'product' && ' scale-95'
+            }`}
+          >
             <p className="w-[7.6875rem] font-semibold text-2xl leading-[1.75rem]">
-              {' '}
               Product Design
             </p>
           </div>
