@@ -62,7 +62,7 @@ export const Swaddle2 = () => {
             </span>
           </div>
         </div>
-        <div className="bg-[#8A77BE] flex flex-col justify-end pt-[2.938rem] pl-5 max-w-[33.188rem] ">
+        <div className="bg-babyPurple flex flex-col justify-end pt-[2.938rem] pl-5 max-w-[33.188rem] ">
           <div className="w-full mb-[62px] h-[20.688rem] relative overflow-hidden">
             <video
               src="/swaddle-vid.mp4"

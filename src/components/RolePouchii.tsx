@@ -67,7 +67,7 @@ export const RolePouchii = () => {
             </a>
           </div>
         </div>
-        <div className="bg-[#7482F6] pt-[2.938rem] pl-5 max-w-[33.188rem]">
+        <div className="bg-purple pt-[2.938rem] pl-5 max-w-[33.188rem]">
           <div className="flex flex-col gap-4 ">
             <div className="flex  gap-2 w-full overflow-clip">
               <Pill>Redesign the Look and Feel</Pill>
