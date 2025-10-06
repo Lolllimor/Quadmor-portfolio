@@ -56,7 +56,7 @@ const Footer = ({ onBackToTop }: { onBackToTop: () => void }) => {
           </span>
         </a>
         <a
-          href="mailto:quadri.morin@example.com"
+          href="mailto:quadmor@hotmail.com"
           className="flex flex-col gap-2 items-center justify-center max-w-[7rem]"
         >
           <div className="w-[7rem] h-[7rem] flex items-center justify-center rounded-[0.75rem] bg-white">
