@@ -1,4 +1,4 @@
-"use client"
+'use client';
 import { DesignSystem } from '@/src/components/DesignSystem';
 import { HeroSection } from '@/src/components/HeroSection';
 import { PresentWork } from '@/src/components/PresentWork';
@@ -18,11 +18,11 @@ import Footer from '@/src/components/footer';
 import { useRef } from 'react';
 
 export default function Home() {
-    const topRef = useRef<HTMLDivElement | null>(null);
+  const topRef = useRef<HTMLDivElement | null>(null);
 
-    const scrollToTop = () => {
-      topRef.current?.scrollIntoView({ behavior: 'smooth' });
-    };
+  const scrollToTop = () => {
+    topRef.current?.scrollIntoView({ behavior: 'smooth' });
+  };
 
   return (
     <div className="w-[100vw]">
@@ -30,16 +30,17 @@ export default function Home() {
         <HeroSection topRef={topRef} />
         <WorkSection />
         <PresentWork />
-        <Pouchii />
-        <RolePouchii />
-        <DesignSystem />
-        <QuickTeller />
         <QuickTeller2 />
         <QuickTeller3 />
+        <Pouchii />
+        <RolePouchii />
+
         <HomeDecor />
         <HomeDecor2 />
-        <Melanin />
-        <Melanin2 />
+        {/* <Melanin />
+        <Melanin2 /> */}
+        <DesignSystem />
+        <QuickTeller />
         <Swaddle />
         <Swaddle2 />
         <Footer onBackToTop={scrollToTop} />

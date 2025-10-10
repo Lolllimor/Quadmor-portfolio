@@ -49,7 +49,7 @@ export const QuickTeller3 = () => {
             <a
               target="_blank"
               rel="noopener noreferrer"
-              href="https://www.behance.net/gallery/188111073/Pouchii-Redesign"
+              href="https://www.dropbox.com/scl/fi/6841qmgky4yzy0s0c7xjl/PMP-Usability-Test-Case-Study.pdf?rlkey=b3dwgrripbuol0k7a5nomfm0n&st=t8fked91&dl=0"
               className="border border-darkBlue rounded-[2.5rem]"
             >
               <div className="bg-darkBlue text-white w-full py-2.5 rounded-[2.5rem] flex items-center justify-center border-[12px] border-white">
@@ -58,8 +58,8 @@ export const QuickTeller3 = () => {
             </a>
           </div>
         </div>
-        <div className="bg-darkBlue pt-[2.938rem] pl-5 max-w-[33.188rem]">
-          <div className="flex flex-col gap-4 mb-[8.5rem]">
+        <div className="bg-darkBlue pt-[2.938rem]  max-w-[33.188rem]">
+          <div className="flex flex-col gap-4 mb-[8.5rem] pl-5">
             <div className="flex  gap-2 w-full overflow-clip">
               <Pill>Usability Test </Pill>
               <Pill> Unmoderated Sessions </Pill>
