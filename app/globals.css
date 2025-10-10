@@ -206,7 +206,13 @@ body {
 @media (max-width: 1024px) {
   .site-wrapper {
     transform: scale(calc(100vw / 1024));
-    width: 1024px; /* keeps internal proportions consistent */
+    width: 1024px; 
     margin: 0 auto;
+  }
+    @supports (-webkit-touch-callout: none) {
+    .site-wrapper {
+      height: 100vh; 
+      transform: scale(calc(100vw / 1024)) translateZ(0);
+    }
   }
 }
