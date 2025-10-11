@@ -1,5 +1,4 @@
-import React from 'react'
-
+import React from 'react';
 
 type LinkedinProps = {
   color?: string;
@@ -7,11 +6,7 @@ type LinkedinProps = {
   height?: number | string;
 };
 
-export const LinkedinIcon = ({
-  color = 'white',
-  width = 24,
-  height = 25,
-}: LinkedinProps) => {
+export const LinkedinIcon = ({ width = 24, height = 25 }: LinkedinProps) => {
   return (
     <svg
       width={width}

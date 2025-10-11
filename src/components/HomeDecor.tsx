@@ -1,6 +1,5 @@
 import Image from 'next/image';
 import React from 'react';
-import { KycIcon } from './icons/kyc';
 
 export const HomeDecor = () => {
   return (
@@ -28,8 +27,13 @@ export const HomeDecor = () => {
       </div>
       <div className="h-[31.313rem] flex items-end w-full relative">
         <div className='grid grid-cols-3 gap-8 h-[28.188rem] bg-[url("/home-decor-phone.png")] bg-cover bg-center bg-no-repeat w-full px-[3.75rem]'>
-  
-          <Image src={"/kyc.png"} alt='KYC' width={274} height={108} className='mt-[100px]' />
+          <Image
+            src={'/kyc.png'}
+            alt="KYC"
+            width={274}
+            height={108}
+            className="mt-[100px]"
+          />
 
           <div></div>
           <div className="absolute bottom-0 right-[3.764rem]">

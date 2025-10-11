@@ -31,7 +31,6 @@ export const Melanin = () => {
             alt="Chart animation"
             className="absolute w-[50rem] left-1/2 bottom-0 -translate-x-1/2   rounded-t-3xl  "
           />
-         
         </div>
       </div>
     </div>

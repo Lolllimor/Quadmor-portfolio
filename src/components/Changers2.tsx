@@ -30,9 +30,10 @@ export const Changers2 = () => {
               project brief
             </div>
             <p className="text-gray  ">
-              CHANGERS is an initiative built on the belief that "Every little
-              helps." The project unites individuals, communities, and corporate
-              organizations passionate about social justice and development.
+              CHANGERS is an initiative built on the belief that &quot;Every
+              little helps.&quot; The project unites individuals, communities,
+              and corporate organizations passionate about social justice and
+              development.
             </p>
           </div>
           <div className="flex flex-col  gap-4">

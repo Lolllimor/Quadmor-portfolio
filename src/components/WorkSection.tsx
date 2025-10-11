@@ -3,7 +3,7 @@ import React, { useState } from 'react';
 import { OpenLink } from './icons/open-link';
 
 export const WorkSection = () => {
-  const [active, setActive] = useState('product');
+  const [active] = useState('product');
   return (
     <div className="flex max-w-5xl mx-auto h-[768px]">
       <div className="w-1/2 px-10 pt-20 font-inter flex flex-col justify-between flex-1">

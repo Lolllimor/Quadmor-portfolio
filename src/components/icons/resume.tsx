@@ -1,5 +1,4 @@
-import React from 'react'
-
+import React from 'react';
 
 type ResumeProps = {
   color?: string;
@@ -7,11 +6,7 @@ type ResumeProps = {
   height?: number | string;
 };
 
-export const ResumeIcon = ({
-  color = 'white',
-  width = 24,
-  height = 25,
-}: ResumeProps) => {
+export const ResumeIcon = ({ width = 24, height = 25 }: ResumeProps) => {
   return (
     <svg
       width={width}

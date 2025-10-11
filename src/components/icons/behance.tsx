@@ -6,11 +6,7 @@ type BehanceProps = {
   height?: number | string;
 };
 
-export const BehanceIcon = ({
-  color = 'white',
-  width = 24,
-  height = 25,
-}: BehanceProps) => {
+export const BehanceIcon = ({ width = 24, height = 25 }: BehanceProps) => {
   return (
     <svg
       width={width}

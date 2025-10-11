@@ -1,7 +1,7 @@
-"use client"
+'use client';
 
 import Image from 'next/image';
-import React, { useRef } from 'react';
+import React from 'react';
 import { Star } from './icons/star';
 
 export const HeroSection = ({
