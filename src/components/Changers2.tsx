@@ -45,14 +45,22 @@ export const Changers2 = () => {
               user-centered approach that prioritized accessibility, simplicity,
               and functionality.
             </p>
+            <a
+              target="_blank"
+              rel="noopener noreferrer"
+              href="https://www.behance.net/gallery/235856111/Changers-UX-Case-Study"
+              className="bg-[#1CA5AF] rounded-[2.5rem] flex  w-full items-center justify-center py-2.5 mt-[38px]"
+            >
+              Click to View Full Case Study
+            </a>
           </div>
         </div>
         <div className="bg-[#1CA5AF] flex flex-col justify-end pt-[2.938rem] max-w-[33.188rem]">
           <div className="w-full h-[290px] mb-[62px] relative overflow-hidden">
             <img
               src="/changers.gif"
-              alt="Chart animation"
-              className="absolute left-1/2 top-0 -translate-x-1/2 h-[315px] w-full"
+              alt="Changers animation"
+              className="absolute left-1/2 top-0 -translate-x-1/2 h-[315px] min-w-[700px] object-cover"
             />
           </div>
           <div className="pl-5  flex flex-col gap-4 mb-[2.625rem]">
