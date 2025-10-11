@@ -76,7 +76,7 @@ const Footer = ({ onBackToTop }: { onBackToTop: () => void }) => {
         </span>
         <ArrowUpIcon />
       </div>
-      <span className="font-causten font-semibold text-[7.737rem] max-w-[436px] text-center leading-28">
+      <span className="font-causten font-semibold text-[7.737rem] text-center leading-28">
         QUADRI MORIN
       </span>
     </div>

@@ -1,5 +1,6 @@
 'use client';
 import React, { useState } from 'react';
+import { OpenLink } from './icons/open-link';
 
 export const WorkSection = () => {
   const [active, setActive] = useState('product');
@@ -39,11 +40,19 @@ export const WorkSection = () => {
           </div>
         </div>
         <div className="flex  h-[16.6875rem]">
-          <div className="bg-grayGreen w-[12.5rem] h-[16.6875rem] rounded-bl-[1.875rem] transition-transform duration-300 hover:scale-95 flex justify-start items-end pl-[1.372rem] pb-[1rem] cursor-pointer">
+          <a
+            target="_blank"
+            rel="noopener noreferrer"
+            href="https://www.linkedin.com/in/quadmor/recent-activity/articles/"
+            className="bg-grayGreen w-[12.5rem] h-[16.6875rem] rounded-bl-[1.875rem] transition-transform duration-300 hover:scale-95 flex flex-col justify-between  pl-[1.372rem] pb-[1rem] cursor-pointer"
+          >
+            <div className="w-full flex justify-end p-[3px]">
+              <OpenLink />
+            </div>
             <p className="w-[7.6875rem] font-semibold text-2xl leading-[1.75rem]">
               Articles & Ideas
             </p>
-          </div>
+          </a>
           <div className="bg-otherPurple w-[12.5rem] h-[16.6875rem] rounded-br-[1.875rem] transition-transform duration-300 hover:scale-95 flex justify-start items-end pl-[1.875rem] pb-[1rem] cursor-pointer">
             <p className="w-[7.6875rem] font-semibold text-2xl leading-[1.75rem]">
               Graphic Design

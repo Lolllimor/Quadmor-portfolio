@@ -2,14 +2,16 @@ import Image from 'next/image';
 import React from 'react';
 
 export const QuickTeller2 = () => {
+  const Pill = ({ children }: { children: string }) => (
+    <span className="text-white border border-white rounded-[2.5rem] px-4 h-[2.25rem] flex items-center justify-center text-[13.01px] whitespace-nowrap">
+      {children}
+    </span>
+  );
   return (
-    <div className=" max-w-5xl mx-auto  bg-white pt-[2.5rem] ">
-      <div className="flex flex-col gap-8   w-full px-[4.438rem] mx-auto mb-8">
-        <div className="px-4 flex items-center justify-center bg-gray text-white uppercase w-fit h-[2.188rem]">
-          past work
-        </div>
-        <div className="flex justify-between gap-2">
-          <div className="flex flex-col gap-2">
+    <div className=" max-w-5xl mx-auto bg-white  max-h-[48rem] h-full flex">
+      <div className="grid grid-cols-2 w-full ">
+        <div className="pl-[4.313rem] flex flex-col gap-[2.625rem] pr-[1.875rem] pt-[2.938rem] mt-2">
+          <div className="flex flex-col gap-2 ">
             <Image
               src={'/quickteller.png'}
               alt="quickteller logo"
@@ -17,31 +19,65 @@ export const QuickTeller2 = () => {
               width={176}
             />
           </div>
-          <p className="font-causten font-medium text-gray max-w-[25.938rem]">
-            A Parking & Tolling Management feature that lets drivers pay for
-            parking, and settle tolls seamlessly. With cashless payments,
-            real-time notifications, and clear receipts, it reduces wait times
-            and delivers a faster, more transparent experience for commuters and
-            casual drivers alike.
-          </p>
-        </div>
-      </div>
-      <div className="h-[33.813rem] flex items-end w-full relative">
-        <div className="grid grid-cols-[0.4fr_0.6fr] bg-[#003C58] h-[28.188rem] pl-[4.438rem] w-full">
-          <div className="absolute top-0">
-            <Image
-              width={375}
-              height={824}
-              src={'/quick-phone.png'}
-              alt="Quick teller representation on a phone"
-            />
+          <div className="flex items-center gap-3">
+            <div className="px-4 flex items-center justify-center bg-gray text-white uppercase w-fit h-[2.188rem]">
+              my role
+            </div>
+            <p className="text-gray uppercase ">ux RESEARCHER & DESIGNER</p>
           </div>
-          <div className='absolute bottom-0 right-0'>
-            <Image
-              width={567}
-              height={397}
-              src={'/quick-park.png'}
-              alt="Quick teller representation on a phone"
+          <div className="flex flex-col  gap-4">
+            <div className="px-4 flex items-center justify-center bg-gray text-white uppercase w-fit h-[2.188rem]">
+              CLIENT BRIEF
+            </div>
+            <p className="text-gray  ">
+              We need to run a usability test on the Parking & Tolling feature
+              to see how easily users can access parking, pay tolls, and get
+              receipts. The test should measure task success, speed, errors, and
+              overall satisfaction, with feedback from both frequent commuters &
+              occasional drivers to guide final design improvements.
+            </p>
+          </div>
+          <div className="flex flex-col  gap-4 mb-[4.438rem]">
+            <div className="px-4 flex items-center justify-center bg-gray text-white uppercase w-fit h-[2.188rem]">
+              THE GOAL
+            </div>
+            <p className="text-gray  ">
+              Enable drivers to manage parking & toll payments seamlessly,
+              reducing friction, saving time, & building trust through cashless
+              transactions & receipts.
+            </p>
+            <a
+              target="_blank"
+              rel="noopener noreferrer"
+              href="https://www.dropbox.com/scl/fi/6841qmgky4yzy0s0c7xjl/PMP-Usability-Test-Case-Study.pdf?rlkey=b3dwgrripbuol0k7a5nomfm0n&st=t8fked91&dl=0"
+              className="border border-darkBlue rounded-[2.5rem]"
+            >
+              <div className="bg-darkBlue text-white w-full py-2.5 rounded-[2.5rem] flex items-center justify-center border-[12px] border-white">
+                Full Case Study - 90% Done
+              </div>
+            </a>
+          </div>
+        </div>
+        <div className="bg-darkBlue pt-[2.938rem]  max-w-[33.188rem]">
+          <div className="flex flex-col gap-4 mb-[8.5rem] pl-5">
+            <div className="flex  gap-2 w-full overflow-clip">
+              <Pill>Usability Test </Pill>
+              <Pill> Unmoderated Sessions </Pill>
+              <Pill>Supervised Research</Pill>
+              <Pill>Design for Speed and Exploration</Pill>
+            </div>
+            <div className="flex gap-2 overflow-clip">
+              <Pill> Global Benchmarking</Pill>
+              <Pill>Evaluation Metrics</Pill>
+              <Pill>Comparison Analysis</Pill>
+            </div>
+          </div>
+
+          <div className="w-full h-[20.125rem] relative overflow-hidden">
+            <img
+              src="/chart.gif"
+              alt="Chart animation"
+              className="absolute left-1/2 top-0 -translate-x-1/2 h-[22rem] w-auto"
             />
           </div>
         </div>
