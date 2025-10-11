@@ -15,6 +15,9 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: 'Quadmor Portfolio',
   description: 'Quadri Morin Work Summary',
+  icons: {
+    icon: '/logo.png',
+  },
 };
 
 export default function RootLayout({
